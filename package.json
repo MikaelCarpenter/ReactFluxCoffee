@@ -1,0 +1,46 @@
+{
+  "browserify-shim": {
+    "md5": "MD5"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim",
+      "coffee-reactify",
+      "html-browserify"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "browserify-shim": "*",
+    "coffee-reactify": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-clean": "*",
+    "gulp-coffee": "*",
+    "gulp-coffeelint": "*",
+    "gulp-concat": "*",
+    "gulp-connect": "*",
+    "gulp-gh-pages": "*",
+    "gulp-minify-css": "*",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-streamify": "*",
+    "gulp-subtree": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "html-browserify": "*",
+    "iconfonts": "*",
+    "lodash": "*",
+    "react": "*",
+    "react-tools": "*",
+    "reflux": "*",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "flux": "*",
+    "jquery": "^3.0.0-alpha1",
+    "react-router": "^1.0.0-beta3"
+  }
+}
